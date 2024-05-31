@@ -1,0 +1,516 @@
+body {
+    background-color: #1E1E1E;
+    margin: 0;
+}
+
+.nabbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nabbar .nabtitle h1 {
+
+    color: #fd6f00;
+}
+.nabbar .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nabbar .menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nabbar .menu ul a {
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+.nabbar .menu ul li {
+
+    list-style: none;
+}
+.nabbar .cv button{
+    padding: 12px 20px;
+    background-color: #fd6f00;
+    color:white;
+    border: none;
+    font-size: 18px;
+}
+
+
+   /* hero-section start style */
+     
+   .hero-section {
+    display: flex;
+    justify-content:space-around;
+    gap: 0;
+    align-items: center;
+    padding-top: 60px;
+
+   }
+   .hero-section .bio-data {
+    padding-left: 42px;
+   }
+
+   .hero-section .bio-data .bio-first-title {
+    color: white;
+    font-size: 22px;
+    line-height: 0;
+   }
+
+   .hero-section .bio-data p{
+    color: rgb(187, 187, 187);
+   }
+   .hero-section .bio-data .bio-second-title {
+     display: flex;
+     gap: 20px;
+     align-items: center;
+     color: white;
+     font-size: 22px;
+     line-height: 0;
+   }
+   .hero-section .bio-data .bio-second-title span  {
+    color: #fd6f00;
+    font-size: 30px;
+
+   }
+   .hero-section .bio-data .bio-therd-title {
+    display: flex;
+     gap: 10px;
+     color: white;
+     font-size: 22px;
+     line-height: 0;
+   }
+
+   .hero-section .bio-data .bio-skill {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 12px;
+   }
+   .hero-section .bio-data .bio-skill h1{
+    font-size: 22px;
+    color: #ffffff;
+   }
+   .hero-section .bio-data .bio-skill span {
+    color: #fd6f00;
+    font-size: 30px;
+   }
+
+   .hero-section .bio-data .bio-button {
+    background-color: #2e2e2e;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 6px 35px;
+    display: flex;
+   }
+
+.hero-section .bio-data .bio-button .bio-f-btn {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #fd6f00;
+ color: white;
+ padding: 10px 18px;
+ border-radius: 50px;
+ font-size: 25px;
+}
+.hero-section .bio-data .bio-button .bio-f-btn button{
+
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.hero-section .bio-data .bio-button  button{
+   color: white;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.hero-section .bio-data .bio-social-icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+.hero-section .bio-data .bio-social-icon span {
+
+    font-size: 30px;
+    color: rgb(133, 133, 133);
+}
+
+
+.component {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    rotate: -3deg;
+    overflow: hidden;
+    width: 99%;
+    margin: auto;
+}
+
+.component h1 {
+
+    font-size: 25px;
+}
+.component span{
+    color:  rgb(133, 133, 133);
+    font-size: 22px;
+}
+
+.about-me {
+  padding-top:80px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-me h1 {
+    color: white;
+    line-height: 0;
+}
+.about-me h4 {
+    color: white;
+    text-align: end;
+    line-height: 1;
+}
+.about-me p {
+
+  color: rgb(198, 198, 198);
+}
+
+.about-me span {
+
+    color: #fd6f00;
+}
+
+
+
+
+.my-experience  {
+
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+ margin: auto;
+ padding: 80px 0px;
+ background: linear-gradient(rgba(0, 0, 255, 0.395),rgba(255, 166, 0, 0.333));
+
+}
+.my-experience .ex-left{
+
+    width:20%;
+    margin: auto;
+}
+.my-experience .ex-right{
+    width:20%;
+    margin: auto;
+}
+.my-experience .ex-left h4 {
+    color: white;
+}
+.my-experience .ex-left h1 {
+    color: white;
+}
+.my-experience .ex-left p {
+  width: 80%;
+  color: rgb(220, 220, 220);
+}
+
+.my-experience .ex-right .first-ex-r .top {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.my-experience .ex-right .first-ex-r .top h4 {
+    line-height: 0;
+    color: white;
+}
+.my-experience .ex-right .first-ex-r .bottom  h1{
+    line-height: 0;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    padding-bottom: 50px;
+    color: white;
+
+}
+
+
+.awards {
+    padding-top: 80px;
+    
+}
+.awards .awards-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.awards .awards-tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.awards .awards-tittle  h1{
+    color: white;
+    line-height: 0;
+}
+.awards .awards-tittle p{
+    color: white;
+    text-align: center;
+  
+    
+}
+.awards .awards-card .top  {
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    color: white;
+   
+}
+.awards .awards-card .bottom  {
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    color: white;
+   
+}
+
+.porfolio {
+
+    padding-top: 100px;
+}
+
+
+.porfolio .porfolio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.porfolio .porfolio-title   h1{
+    color: white;
+    line-height: 0;
+}
+.porfolio .porfolio-title  p{
+    color: white;
+    text-align: center;   
+}
+
+.porfolio .porfolio-menu {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.porfolio .porfolio-menu button {
+
+    padding: 12px 20px;
+    background-color: #000000;
+    border: none;
+    color: white;
+
+}
+.porfolio .porfolio-menu .wb 
+{
+    background-color: #fd6f00;
+}
+
+.porfolio-website {
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    width: 62%;
+    margin: auto;
+    padding-top: 80px;
+    
+}
+
+.porfolio-website .portfolio-image img {
+
+    width: 400px;
+    height: 350px;
+}
+
+.porfolio-website .portfolio-title {
+    width: 50%;
+    
+}
+.porfolio-website .portfolio-title h3 {
+    color: white;
+}
+.porfolio-website .portfolio-title h1 {
+    color: white;
+}
+.porfolio-website .portfolio-title p {
+    color: rgb(181, 181, 181);
+}
+
+
+.input-title {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-title h1 {
+  line-height: 0;
+  color: white;
+}
+.input-title h4 {
+    line-height: 0;
+    color: white;
+}
+
+
+.input-flex  {
+
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #34261b;
+    width: 60%;
+    margin: auto;
+   
+
+}
+.input-flex-2  {
+
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    background-color: #34261b;
+    width: 60%;
+    margin: auto;
+}
+.input-flex .title label {
+    color: white;
+}
+.input-flex-2 .title label {
+    color: white;
+}
+.input-flex input {
+
+    width: 100%;
+    padding: 0px 50px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+}
+.input-flex-2 input {
+
+    width: 100%;
+    padding: 0px 50px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+}
+
+
+.copy {
+
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #34261b;
+    width: 60%;
+    margin: auto;
+    
+}
+.copy h4 {
+
+    padding-left: 0%;
+}
+.copy span {
+
+    padding-left: 16%;
+}
+
+
+.submit {
+    background-color: #34261b;
+    width:40%;
+    margin: auto;
+    padding-left: 20%;
+    padding-bottom: 50px;
+ 
+}
+.submit button{
+
+background: #fd6f00;
+color: white;
+border: none;
+padding: 12px 20px;
+
+}
+
+
+.footer {
+
+
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.footer h1{
+   font-size: 40px;
+    text-align: center;
+    color: #fd6f00;
+}
+
+.footer .footer-menu ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+
+}
+.footer .footer-menu ul a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+
+.footer-icon {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.footer-icon span {
+
+    color: white;
+    font-size: 22px;
+}
